@@ -1,0 +1,35 @@
+2024-04-30T17:58:17.931+05:00  INFO 11992 --- [main] c.e.b.BankingSystemApplication           : Starting BankingSystemApplication using Java 19.0.1 with PID 11992 (C:\Program Files\learn-spring-framework\banking_system\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\banking_system)
+2024-04-30T17:58:18.012+05:00  INFO 11992 --- [main] c.e.b.BankingSystemApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T17:58:19.194+05:00  INFO 11992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T17:58:19.195+05:00  INFO 11992 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-30T17:58:19.241+05:00  INFO 11992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T17:58:19.381+05:00  INFO 11992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T17:58:19.457+05:00  INFO 11992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-30T17:58:19.496+05:00  INFO 11992 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-30T17:58:19.778+05:00  INFO 11992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30T17:58:19.959+05:00  INFO 11992 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42730828
+2024-04-30T17:58:19.960+05:00  INFO 11992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30T17:58:20.049+05:00  WARN 11992 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-30T17:58:20.973+05:00  INFO 11992 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-30T17:58:22.062+05:00  INFO 11992 --- [main] c.e.b.BankingSystemApplication           : Started BankingSystemApplication in 4.671 seconds (process running for 5.805)
+2024-04-30T17:59:11.749+05:00  INFO 11992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30T18:53:31.535+05:00  WARN 11992 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m40s665ms272µs99ns).
+2024-04-30T18:56:46.258+05:00  INFO 11992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-30T18:56:46.303+05:00  INFO 11992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-30T18:57:01.782+05:00  INFO 11332 --- [main] c.e.b.BankingSystemApplication           : Starting BankingSystemApplication using Java 19.0.1 with PID 11332 (C:\Program Files\learn-spring-framework\banking_system\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\banking_system)
+2024-04-30T18:57:01.786+05:00  INFO 11332 --- [main] c.e.b.BankingSystemApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T18:57:03.753+05:00  INFO 11332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T18:57:03.754+05:00  INFO 11332 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-30T18:57:03.847+05:00  INFO 11332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T18:57:04.124+05:00  INFO 11332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T18:57:04.369+05:00  INFO 11332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-30T18:57:04.433+05:00  INFO 11332 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-30T18:57:04.870+05:00  INFO 11332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30T18:57:05.208+05:00  INFO 11332 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b3056a6
+2024-04-30T18:57:05.211+05:00  INFO 11332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30T18:57:05.294+05:00  WARN 11332 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-30T18:57:07.055+05:00  INFO 11332 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-30T18:57:08.278+05:00  INFO 11332 --- [main] c.e.b.BankingSystemApplication           : Started BankingSystemApplication in 7.311 seconds (process running for 8.447)
+2024-04-30T19:00:21.120+05:00  INFO 11332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30T19:08:00.105+05:00  INFO 11332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-30T19:08:00.161+05:00  INFO 11332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
